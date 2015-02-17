@@ -25,6 +25,7 @@ $songs = $dao->getAllSongs($dbh);
 //$songs = $dao->getAllSongs($host,$database,$user,$password);
 echo "OK here is what was passed back from DAO new change <br>";
 echo "Testing git locally <br>";
+echo "OK one more commit... <br>";
 
 //print_r($songs);
 
@@ -61,7 +62,7 @@ foreach ($songs as $records) {
     $dao->addSong($dbh, $data);
 
     $songbyartist = $dao->getSongsByArtist($dbh, $song->getArtist());
-    
+
 
 }
 
