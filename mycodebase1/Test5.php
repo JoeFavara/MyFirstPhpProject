@@ -25,6 +25,7 @@ $songs = $dao->getAllSongs($dbh);
 //$songs = $dao->getAllSongs($host,$database,$user,$password);
 echo "OK here is what was passed back from DAO new change <br>";
 echo "Testing git locally <br>";
+echo "more testing with Git <br>";
 
 //print_r($songs);
 
