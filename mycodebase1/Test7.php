@@ -16,4 +16,5 @@ $password = "root";
 $database = 'php-mvc';
 
 $test2 = null;
+$test3 = "ALl night long";
 
