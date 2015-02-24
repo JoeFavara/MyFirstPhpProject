@@ -16,6 +16,7 @@ $user = "root";
 $password = "root";
 $database = 'php-mvc';
 $test = null;
+$test1 = null;
 
 echo "In Test6 <br>";
 
