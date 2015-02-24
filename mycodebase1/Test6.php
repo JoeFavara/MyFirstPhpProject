@@ -15,6 +15,7 @@ $port = "8889";
 $user = "root";
 $password = "root";
 $database = 'php-mvc';
+$test = null;
 
 echo "In Test6 <br>";
 
